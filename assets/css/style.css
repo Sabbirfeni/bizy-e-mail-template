@@ -39,9 +39,19 @@ img {
 .button:hover {
     background-color: #df0101;
 }
-.linkContainer {
+.linkContainer, .backBtn {
     margin: 40px 0px 50px 0px;
     text-align: center;
+}
+.backBtn a {
+    background: radial-gradient(#2fa3a5 5%, #1a8184 90%);
+    border: 1px solid #ffffff00;
+    color: #ffffff;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    padding: 10px 35px;
+    border-radius: 30px;
+    letter-spacing: 3px;
+    text-decoration: none;
 }
 p {
     font-size: clamp(1rem, 3vw, 1.4rem);
@@ -75,7 +85,7 @@ p {
 }
 .unsubscribe {
     color: white; text-decoration: none; 
-    font-size: 22px;
+    font-size: 18px;
     text-align: right;
     float: right;
 }
@@ -88,5 +98,27 @@ p {
 footer {
     background-color: #1a8184;
     padding: 15px 20px;
+    margin-top: 50px;
+}
+.bookBtnContainer {
+    position: relative;
+}
+.bookBtn {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 300px;
+    right: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .bookBtn {
+        width: 300px;
+        height: auto;
+        position: absolute;
+        top: 75%;
+        right: 12%;
+    }
 }
 
