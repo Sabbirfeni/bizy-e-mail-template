@@ -15,22 +15,12 @@ main {
     min-height: 100vh;
     background-color: #ffffff;
 }
-.bookBtnContainer {
-    position: relative;
-}
-.bookBtn {
-    width: 100px;
-    height: auto;
-    position: absolute;
-    top: 300px;
-    right: 150px;
-}
 
-/* img {
+.imgFullWidth {
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
-} */
+    /* margin-bottom: 20px; */
+}
 
 .imgContainer {
     text-align: center;
@@ -109,6 +99,16 @@ footer {
     background-color: #1a8184;
     padding: 15px 20px;
     margin-top: 50px;
+}
+.bookBtnContainer {
+    position: relative;
+}
+.bookBtn {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 300px;
+    right: 150px;
 }
 
 @media only screen and (max-width: 600px) {
